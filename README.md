@@ -1,7 +1,7 @@
 # CCwebdev
 
-User credentials for login:
-Username:**admin**
+User credentials for login: 
+Username:**admin** 
 Passwrod:**admin**
 
 >Also use Mouse for login
