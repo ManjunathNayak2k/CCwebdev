@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,cursive;
+}
+
+header{
+    height: 100vh;
+    width:100%;
+    padding-left: 10rem;
+    background: url("../img/undraw_social_20.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    user-select: none;
+}
+
+.main-header{
+    text-align: center;
+    transition: 0.5s;
+}
+
+.main-header:hover{
+    -webkit-box-shadow: 17px 21px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 21px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 17px 21px 38px 0px rgba(0,0,0,0.75);
+}
+
+.main-header h1{
+    font-size: 3rem;
+    margin:20px;
+    font-family: 'Pacifico',cursive;
+    color: #3F3D56;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+
+.main-header hr{
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+    background: #6C63FF;
+    border: none;
+}
+.main-header h3{
+    margin: 20px;
+    font-size: 1.7rem;
+    font-family: sans-serif,cursive;
+    color: #3F3D56;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+
+.main-header .check{
+    justify-content: left;
+    font-family: sans-serif,cursive;
+    color: #3F3D56 ;
+}
+
+.main-header input{
+    width:90%;
+    padding: 1rem;
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 1.3rem;
+    background: transparent;
+    outline: none;
+}
+
+.main-header button{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background:#3F3D56;
+    color: #fff;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin:20px;
+}
+
+.main-header button:hover{
+    transform: scale(1.15);
+}
