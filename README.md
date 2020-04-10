@@ -1,2 +1,3 @@
 # CCwebdev
-Repository for CC webdev learning. Ayush are you seeing this? xD
+
+Use admin admin for login
